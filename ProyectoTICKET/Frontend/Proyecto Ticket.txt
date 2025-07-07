@@ -1,0 +1,35 @@
+En esta carpeta hay un ejemplo del proyecto Ticket para que utilicen de modelo y puedan analizar los bloques de código.
+
+Como veran, esta trabajado con NODE JS, EXPRESS, MYSQL, CORS, HTML, CSS, JAVASCRIPT. 
+No se subieron los archivos de node_modules al repositorio, dado el tamaño de la carpeta. 
+Pero una vez que instalen express, mysql2 y cors, se genera la carpeta node_modules. 
+Preferentemente, instalar cuando se encuentren en la ruta /proyectoticket/Backend. 
+
+
+En el archivo HTML:
+* Formulario con su ID
+* <script> con fetch para determinar la URL en la que van a enviarse las solicitudes al servidor de express. Tambien van a encontrar
+en este script, el ejemplo de una tabla dinamica. Primero se hace la tabla en HTML. y en el <script> manipulamos la creación de la tabla
+manipulando el DOM. 
+
+En el archivo SERVER.JS: 
+* En este archivo se encuentran definidos los modulos de Express, Mysql2 y CORS. (en las primeras lineas de código). Estos en teoría, ya deben 
+estar instalado mediante npm install express mysql2 cors en la terminal de visual. 
+
+Así mismo, estando en la ruta /proyectoticket . desde la terminal d visual, deben utilizar el comando NPM INIT -y 
+para inicializar el proyecto y que se cree el archivo package.json 
+
+en el archivo Server.js podran visualizar los ENDPOINT que coinciden con las rutas establecidas en el script.js 
+es decir, con las URL que se habian determinado en FETCH.
+
+
+Falta agregar la base de datos con las tablas. 
+
+Analicen el código e investigen si no entienden que hace algún bloque de código.
+
+Analicen particularmente:
+* FETCH
+* <script>
+* ENDPOINT
+* Consultar SQL
+* Ejecución de las consultas SQL.
